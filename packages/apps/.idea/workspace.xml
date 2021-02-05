@@ -1,0 +1,1167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fc55e9c7-c42c-4553-a2d4-72db2c0d5595" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../apps-config/src/api/chain/galois.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apps-config/src/api/params/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apps-config/src/api/params/inflation.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apps-config/src/api/spec/bitcountry.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apps-config/src/api/spec/crust-parachain.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apps-config/src/api/spec/dusty.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apps-config/src/api/spec/encointer-para.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apps-config/src/api/spec/jupiter.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apps-config/src/api/spec/phala-parachain.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apps-config/src/api/spec/phala.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apps-config/src/api/spec/polkadex.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apps-config/src/api/spec/uniarts.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apps-config/src/api/spec/zero.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apps-config/src/api/specVersioned/acala.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apps-config/src/api/specVersioned/edgeware.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apps-config/src/api/specVersioned/equilibrium.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apps-config/src/api/specVersioned/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apps-config/src/api/specVersioned/kulupu.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apps-config/src/api/specVersioned/moonbeam.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apps-config/src/api/specVersioned/polkabtc.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apps-config/src/api/specVersioned/soraSubstrate.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apps-config/src/endpoints/development.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apps-config/src/endpoints/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apps-config/src/endpoints/production.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apps-config/src/endpoints/testing.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apps-config/src/endpoints/testingRococo.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apps-config/src/endpoints/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apps-config/src/endpoints/util.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apps-config/src/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apps-config/src/settings/ethereumChains.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apps-config/src/ui/logos/nodes/bitcountry.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apps-config/src/ui/logos/nodes/jupiter.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apps-config/src/ui/logos/nodes/math.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apps-config/src/ui/logos/nodes/polkabtc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apps-config/src/ui/logos/nodes/polkadex.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apps-config/src/ui/logos/nodes/sora-substrate.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apps-config/src/ui/logos/nodes/uniarts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apps-config/src/ui/logos/nodes/zero.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apps-routing/src/bounties.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/iframe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/locales/en/app-bounties.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/locales/en/test-support.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.serve.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-bounties/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-bounties/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-bounties/src/Bounties.slow.spec.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-bounties/src/Bounties.spec.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-bounties/src/Bounties.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-bounties/src/Bounty.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-bounties/src/BountyAcceptCurator.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-bounties/src/BountyActions/AwardBounty.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-bounties/src/BountyActions/BountyClaimAction.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-bounties/src/BountyActions/BountyInitiateVoting.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-bounties/src/BountyActions/CloseBounty.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-bounties/src/BountyActions/ExtendBountyExpiryAction.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-bounties/src/BountyActions/ProposeCuratorAction.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-bounties/src/BountyActions/SlashCurator.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-bounties/src/BountyActions/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-bounties/src/BountyCreate.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-bounties/src/BountyExtraActions.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-bounties/src/BountyInfos.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-bounties/src/BountyRejectCurator.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-bounties/src/BountyStatusView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-bounties/src/Curator.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-bounties/src/Description.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-bounties/src/Summary.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-bounties/src/Voting/ExtendedStatus.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-bounties/src/Voting/VotersColumn.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-bounties/src/Voting/VotingSummary.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-bounties/src/helpers/calculateBountyBond.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-bounties/src/helpers/calculateBountyBond.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-bounties/src/helpers/determineUnassignCuratorAction.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-bounties/src/helpers/determineUnassignCuratorAction.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-bounties/src/helpers/extendedStatuses.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-bounties/src/helpers/getBountyStatus.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-bounties/src/helpers/getBountyStatus.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-bounties/src/helpers/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-bounties/src/helpers/isClaimable.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-bounties/src/helpers/isClaimable.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-bounties/src/helpers/stringHelpers.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-bounties/src/helpers/truncateTitle.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-bounties/src/hooks/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-bounties/src/hooks/useBalance.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-bounties/src/hooks/useBounties.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-bounties/src/hooks/useBountyStatus.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-bounties/src/hooks/useUserRole.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-bounties/src/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-bounties/src/translate.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-bounties/src/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-bounties/src/useCounter.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-bounties/test/hooks/defaults.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-bounties/test/utils/clickButtonWithName.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-bounties/test/utils/clickElementWithTestId.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-bounties/test/utils/clickElementWithText.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-calendar/src/UpcomingEvents.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-contracts/src/Contracts/ContractsTable.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-parachains/src/Overview/Actions.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-parachains/src/Overview/ParachainList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-parachains/src/Overview/Upcoming.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-parachains/src/Overview/UpcomingList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-parachains/src/Proposals/Actions.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-parachains/src/Proposals/Proposal.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-parachains/src/Proposals/Proposals.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-parachains/src/Proposals/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-parachains/src/Proposals/useProposals.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-parachains/src/modals/Propose.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-parachains/src/modals/RegisterThread.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-parachains/src/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-parachains/src/util.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-staking/src/Overview/Address/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-staking/src/useIdentities.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../page-staking/src/useNominations.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-api/src/urlTypes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-components/src/BatchWarning.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-components/src/InputRpc/rpcs.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-components/src/InputRpc/useRpcs.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-components/src/MarkError.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-components/src/MarkWarning.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-hooks/src/useBlocksPerDays.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-hooks/src/useCallMulti.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-hooks/src/useInflation.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-hooks/src/useLedger.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-hooks/src/useParaApi.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-hooks/src/useParaEndpoints.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-hooks/src/useSavedFlags.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../react-hooks/src/useTreasury.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test-support/.skip-npm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test-support/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test-support/scripts/createBounties.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test-support/scripts/lib/bountyWaitFunctions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test-support/scripts/lib/changeBountyStateFunctions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test-support/scripts/lib/constants.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test-support/scripts/lib/helpers.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test-support/scripts/lib/multiFunctions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test-support/scripts/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test-support/src/api/createApi.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test-support/src/api/createAugmentedApi.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test-support/src/api/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test-support/src/creation/balance.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test-support/src/creation/bounties/bountyFactory.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test-support/src/keyring/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test-support/src/keyring/signers.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test-support/src/react/apiInTests.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test-support/src/react/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test-support/src/substrate/constants.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test-support/src/substrate/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test-support/src/transaction/execute.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test-support/src/transaction/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test-support/src/utils/waitFor.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test-support/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.123trigger" beforeDir="false" afterPath="$PROJECT_DIR$/../../.123trigger" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.eslintignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../.eslintrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../__mocks__/fileMock.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../babel.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../env.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../../env.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../i18next-scanner.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../i18next-scanner.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jest.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../jest.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jest/globalSetup.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../jest/globalSetup.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jest/globalTeardown.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../jest/globalTeardown.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../jest/substrateTestsGlobal.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../jest/substrateTestsGlobal.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-config/.skip-npm" beforeDir="false" afterPath="$PROJECT_DIR$/../page-bounties/.skip-npm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-config/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-config/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-config/src/api/bundle/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-config/src/api/bundle/spec/acala.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-config/src/api/bundle/spec/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-config/src/api/bundle/spec/laminar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-config/src/api/specVersioned/laminar.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-config/src/api/chain/beresheet.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-config/src/api/chain/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-config/src/api/chain/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-config/src/api/chain/phala.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-config/src/api/chain/phala.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-config/src/api/constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-config/src/api/constants.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-config/src/api/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-config/src/api/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-config/src/api/rpc/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-config/src/api/rpc/moonbeam.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-config/src/api/spec/bifrost.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-config/src/api/spec/bifrost.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-config/src/api/spec/canvas.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-config/src/api/spec/canvas.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-config/src/api/spec/centrifuge-chain.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-config/src/api/spec/centrifuge-chain.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-config/src/api/spec/crab.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-config/src/api/spec/crab.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-config/src/api/spec/crust.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-config/src/api/spec/crust.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-config/src/api/spec/cumulus-test-parachain.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-config/src/api/spec/cumulus-test-parachain.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-config/src/api/spec/darwinia-parachain.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-config/src/api/spec/darwinia-parachain.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-config/src/api/spec/darwinia.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-config/src/api/spec/darwinia.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-config/src/api/spec/dock.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-config/src/api/spec/dock.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-config/src/api/spec/edgeware.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-config/src/api/spec/encointer-node-notee.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-config/src/api/spec/encointer-node-notee.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-config/src/api/spec/encointer-node-teeproxy.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-config/src/api/spec/encointer-node-teeproxy.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-config/src/api/spec/equilibrium.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-config/src/api/spec/equilibrium.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-config/src/api/spec/hanonycash.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-config/src/api/spec/hanonycash.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-config/src/api/spec/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-config/src/api/spec/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-config/src/api/spec/kilt.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-config/src/api/spec/kilt.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-config/src/api/spec/kulupu.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-config/src/api/spec/moonbeam.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-config/src/api/spec/node-template.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-config/src/api/spec/plasm-parachain.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-config/src/api/spec/nodle.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-config/src/api/spec/nodle.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-config/src/api/spec/plasm.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-config/src/api/spec/plasm.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-config/src/api/spec/robonomics.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-config/src/api/spec/robonomics.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-config/src/api/spec/stable-poc.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-config/src/api/spec/stable-poc.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-config/src/api/spec/stafi.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-config/src/api/spec/stafi.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-config/src/api/spec/subsocial.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-config/src/api/spec/subsocial.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-config/src/api/util.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-config/src/api/util.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-config/src/extensions/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-config/src/extensions/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-config/src/links/commonwealth.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-config/src/links/commonwealth.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-config/src/links/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-config/src/links/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-config/src/links/polkascan.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-config/src/links/polkascan.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-config/src/links/polkassembly.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-config/src/links/polkassembly.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-config/src/links/polkastats.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-config/src/links/polkastats.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-config/src/links/subscan.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-config/src/links/subscan.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-config/src/links/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-config/src/links/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-config/src/settings/constants.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-config/src/settings/endpoints.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-config/src/settings/ethereumNetworks.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-config/src/settings/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-config/src/settings/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-config/src/settings/languages.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-config/src/settings/languages.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-config/src/settings/ss58.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-config/src/settings/ss58.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-config/src/settings/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-config/src/settings/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-config/src/ui/colors.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-config/src/ui/colors.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-config/src/ui/identityIcons/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-config/src/ui/identityIcons/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-config/src/ui/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-config/src/ui/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-config/src/ui/logos/chains/usetech.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-config/src/ui/logos/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-config/src/ui/logos/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-config/src/ui/logos/nodes/dock-mainnet.png" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-config/src/ui/logos/nodes/dock-mainnet.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-config/src/ui/logos/nodes/dock-testnet.png" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-config/src/ui/logos/nodes/dock-testnet.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-config/src/ui/logos/nodes/encointer-notee.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-config/src/ui/logos/nodes/encointer-notee.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-config/src/ui/logos/nodes/encointer-teeproxy.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-config/src/ui/logos/nodes/encointer-teeproxy.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-config/src/ui/logos/nodes/phala.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-config/src/ui/logos/nodes/phala.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-electron/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-electron/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-electron/src/api/account-store-api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-electron/src/api/account-store-api.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-electron/src/api/electron-main-api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-electron/src/api/electron-main-api.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-electron/src/api/global-exported-api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-electron/src/api/global-exported-api.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-electron/src/electron/autoUpdater.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-electron/src/electron/autoUpdater.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-electron/src/electron/contentSecurityPolicy.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-electron/src/electron/contentSecurityPolicy.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-electron/src/electron/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-electron/src/electron/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-electron/src/electron/window.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-electron/src/electron/window.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-electron/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-electron/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-electron/src/main/account-store.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-electron/src/main/account-store.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-electron/src/main/account-store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-electron/src/main/account-store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-electron/src/main/ipc-main-handler.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-electron/src/main/ipc-main-handler.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-electron/src/main/register-ipc-handler.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-electron/src/main/register-ipc-handler.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-electron/src/preload.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-electron/src/preload.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-electron/src/renderer/remote-electron-store.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-electron/src/renderer/remote-electron-store.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-electron/src/renderer/remote-electron-store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-electron/src/renderer/remote-electron-store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-electron/webpack.main.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-electron/webpack.main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-electron/webpack.renderer.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-electron/webpack.renderer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-routing/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-routing/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-routing/src/accounts.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-routing/src/accounts.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-routing/src/addresses.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-routing/src/addresses.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-routing/src/calendar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-routing/src/calendar.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-routing/src/claims.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-routing/src/claims.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-routing/src/contracts.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-routing/src/contracts.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-routing/src/council.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-routing/src/council.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-routing/src/democracy.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-routing/src/democracy.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-routing/src/explorer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-routing/src/explorer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-routing/src/extrinsics.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-routing/src/extrinsics.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-routing/src/generic-asset.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-routing/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-routing/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-routing/src/js.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-routing/src/js.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-routing/src/nft-creator.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-routing/src/nft-curator.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-routing/src/nft-gallery.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-routing/src/nft-wallet.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-routing/src/parachains.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-routing/src/parachains.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-routing/src/poll.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-routing/src/poll.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-routing/src/rpc.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-routing/src/rpc.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-routing/src/settings.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-routing/src/settings.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-routing/src/signing.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-routing/src/signing.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-routing/src/society.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-routing/src/society.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-routing/src/staking.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-routing/src/staking.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-routing/src/storage.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-routing/src/storage.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-routing/src/sudo.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-routing/src/sudo.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-routing/src/techcomm.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-routing/src/techcomm.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-routing/src/transfer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-routing/src/transfer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-routing/src/treasury.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-routing/src/treasury.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apps-routing/src/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-routing/src/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/NunitoSans/nunito-sans-v6-vietnamese_latin-ext_latin-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/NunitoSans/nunito-sans-v6-vietnamese_latin-ext_latin-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/NunitoSans/nunito-sans-v6-vietnamese_latin-ext_latin-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/NunitoSans/nunito-sans-v6-vietnamese_latin-ext_latin-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/NunitoSans/nunito-sans-v6-vietnamese_latin-ext_latin-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/fonts.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ipfs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/ipfs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ipfs/pin.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/ipfs/pin.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/ar/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/ar/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/en/app-accounts.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en/app-accounts.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/en/app-contracts.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en/app-contracts.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/en/app-democracy.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en/app-democracy.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/en/app-explorer.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en/app-explorer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/en/app-js.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en/app-js.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/en/app-parachains.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en/app-parachains.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/en/app-settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en/app-settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/en/app-society.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en/app-society.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/en/app-staking.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en/app-staking.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/en/app-treasury.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en/app-treasury.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/en/apps-config.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en/apps-config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/en/apps-routing.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en/apps-routing.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/en/apps.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en/apps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/en/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/en/react-components.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en/react-components.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/en/react-signer.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en/react-signer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/en/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/es/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/es/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/fr/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/fr/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/id/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/id/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/it/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/it/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/ja/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/ja/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/ko/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/ko/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/pt/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/pt/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/ru/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/ru/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/zh/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/zh/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Apps.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Apps.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/NotFound.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/NotFound.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/Status.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/Status.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Content/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Content/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Endpoints/Group.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Endpoints/Group.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Endpoints/Network.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Endpoints/Network.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Endpoints/Url.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Endpoints/Url.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Endpoints/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Endpoints/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Endpoints/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Endpoints/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Menu/ChainInfo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu/ChainInfo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Menu/Grouping.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu/Grouping.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Menu/Item.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu/Item.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Menu/NodeInfo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu/NodeInfo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Menu/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Menu/types.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu/types.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Root.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Root.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TopBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/TopBar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WarmUp.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/WarmUp.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WindowDimensions.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/WindowDimensions.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/defaultNftTypes.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/endpoint.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/endpoint.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/initSettings.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/initSettings.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/overlays/Base.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/overlays/Base.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/overlays/Connecting.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/overlays/Connecting.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/themes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/themes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/translate.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/translate.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wp-gif.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/wp-gif.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wp-md.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/wp-md.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wp-png.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/wp-png.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wp-svg.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/wp-svg.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.base.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.base.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-accounts/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../page-accounts/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-accounts/src/Accounts/Account.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-accounts/src/Accounts/Account.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-accounts/src/Accounts/Banner.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-accounts/src/Accounts/Banner.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-accounts/src/Accounts/BannerClaims.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-accounts/src/Accounts/BannerClaims.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-accounts/src/Accounts/BannerExtension.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-accounts/src/Accounts/BannerExtension.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-accounts/src/Accounts/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-accounts/src/Accounts/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-accounts/src/Accounts/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-accounts/src/Accounts/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-accounts/src/Accounts/useKnownAddresses.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-accounts/src/Accounts/useKnownAddresses.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-accounts/src/Accounts/useMultisigApprovals.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-accounts/src/Accounts/useMultisigApprovals.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-accounts/src/Accounts/useProxies.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-accounts/src/Accounts/useProxies.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-accounts/src/CreateAccount.slow.spec.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-accounts/src/CreateAccount.slow.spec.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-accounts/src/Sidebar/Balances.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-accounts/src/Sidebar/Balances.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-accounts/src/Sidebar/Flags.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-accounts/src/Sidebar/Flags.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-accounts/src/Sidebar/Identity.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-accounts/src/Sidebar/Identity.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-accounts/src/Sidebar/Multisig.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-accounts/src/Sidebar/Multisig.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-accounts/src/Sidebar/RegistrarJudgement.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-accounts/src/Sidebar/RegistrarJudgement.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-accounts/src/Sidebar/Sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-accounts/src/Sidebar/Sidebar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-accounts/src/Sidebar/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-accounts/src/Sidebar/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-accounts/src/Vanity/Match.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-accounts/src/Vanity/Match.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-accounts/src/Vanity/bipWorker.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-accounts/src/Vanity/bipWorker.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-accounts/src/Vanity/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-accounts/src/Vanity/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-accounts/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-accounts/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-accounts/src/modals/Backup.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-accounts/src/modals/Backup.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-accounts/src/modals/ChangePass.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-accounts/src/modals/ChangePass.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-accounts/src/modals/Create.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-accounts/src/modals/Create.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-accounts/src/modals/CreateConfirmation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-accounts/src/modals/CreateConfirmation.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-accounts/src/modals/Delegate.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-accounts/src/modals/Delegate.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-accounts/src/modals/Derive.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-accounts/src/modals/Derive.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-accounts/src/modals/ExternalWarning.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-accounts/src/modals/ExternalWarning.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-accounts/src/modals/IdentityMain.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-accounts/src/modals/IdentityMain.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-accounts/src/modals/IdentitySub.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-accounts/src/modals/IdentitySub.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-accounts/src/modals/Import.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-accounts/src/modals/Import.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-accounts/src/modals/InputValidateAmount.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-accounts/src/modals/InputValidateAmount.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-accounts/src/modals/Ledger.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-accounts/src/modals/Ledger.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-accounts/src/modals/MultisigApprove.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-accounts/src/modals/MultisigApprove.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-accounts/src/modals/MultisigCreate.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-accounts/src/modals/MultisigCreate.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-accounts/src/modals/PasswordInput.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-accounts/src/modals/PasswordInput.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-accounts/src/modals/ProxiedAdd.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-accounts/src/modals/ProxiedAdd.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-accounts/src/modals/ProxyOverview.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-accounts/src/modals/ProxyOverview.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-accounts/src/modals/Qr.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-accounts/src/modals/Qr.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-accounts/src/modals/RecoverAccount.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-accounts/src/modals/RecoverAccount.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-accounts/src/modals/RecoverSetup.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-accounts/src/modals/RecoverSetup.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-accounts/src/modals/Transfer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-accounts/src/modals/Transfer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-accounts/src/modals/Undelegate.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-accounts/src/modals/Undelegate.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-accounts/src/test-support/MemoryStore.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../test-support/src/keyring/MemoryStore.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-accounts/src/translate.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-accounts/src/translate.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-accounts/src/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-accounts/src/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-accounts/src/useCounter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-accounts/src/useCounter.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-accounts/src/util.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-accounts/src/util.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-addresses/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../page-addresses/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-addresses/src/Contacts/Address.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-addresses/src/Contacts/Address.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-addresses/src/Contacts/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-addresses/src/Contacts/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-addresses/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-addresses/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-addresses/src/modals/Create.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-addresses/src/modals/Create.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-addresses/src/translate.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-addresses/src/translate.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-addresses/src/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-addresses/src/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-addresses/src/util.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-addresses/src/util.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-calendar/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../page-calendar/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-calendar/src/Day.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-calendar/src/Day.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-calendar/src/DayHour.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-calendar/src/DayHour.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-calendar/src/DayItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-calendar/src/DayItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-calendar/src/DayTime.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-calendar/src/DayTime.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-calendar/src/Month.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-calendar/src/Month.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-calendar/src/MonthDay.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-calendar/src/MonthDay.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-calendar/src/constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-calendar/src/constants.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-calendar/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-calendar/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-calendar/src/translate.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-calendar/src/translate.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-calendar/src/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-calendar/src/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-calendar/src/useScheduled.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-calendar/src/useScheduled.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-calendar/src/util.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-calendar/src/util.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-claims/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../page-claims/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-claims/src/Attest.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-claims/src/Attest.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-claims/src/Claim.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-claims/src/Claim.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-claims/src/Statement.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-claims/src/Statement.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-claims/src/Warning.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-claims/src/Warning.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-claims/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-claims/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-claims/src/secp256k1.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-claims/src/secp256k1.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-claims/src/translate.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-claims/src/translate.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-claims/src/useCounter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-claims/src/useCounter.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-claims/src/usePolkadotPreclaims.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-claims/src/usePolkadotPreclaims.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-claims/src/util.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-claims/src/util.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-claims/src/util.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-claims/src/util.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-contracts/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../page-contracts/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-contracts/src/Banner.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-contracts/src/Contracts/Banner.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-contracts/src/Codes/Add.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-contracts/src/Codes/Add.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-contracts/src/Codes/Code.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-contracts/src/Codes/Code.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-contracts/src/Codes/Upload.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-contracts/src/Codes/Upload.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-contracts/src/Codes/ValidateCode.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-contracts/src/Codes/ValidateCode.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-contracts/src/Codes/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-contracts/src/Codes/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-contracts/src/Contracts/Add.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-contracts/src/Contracts/Add.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-contracts/src/Contracts/Call.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-contracts/src/Contracts/Call.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-contracts/src/Contracts/Contract.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-contracts/src/Contracts/Contract.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-contracts/src/Contracts/Outcome.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-contracts/src/Contracts/Outcome.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-contracts/src/Contracts/ValidateAddr.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-contracts/src/Contracts/ValidateAddr.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-contracts/src/Contracts/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-contracts/src/Contracts/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-contracts/src/Contracts/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-contracts/src/Contracts/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-contracts/src/Contracts/util.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-contracts/src/Contracts/util.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-contracts/src/Deploy.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-contracts/src/Contracts/Deploy.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-contracts/src/RemoveABI.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-contracts/src/RemoveABI.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-contracts/src/Summary.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-contracts/src/Contracts/Summary.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-contracts/src/constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-contracts/src/constants.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-contracts/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-contracts/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-contracts/src/shared/ABI.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-contracts/src/shared/ABI.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-contracts/src/shared/CodeRow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-contracts/src/shared/CodeRow.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-contracts/src/shared/InputMegaGas.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-contracts/src/shared/InputMegaGas.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-contracts/src/shared/InputName.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-contracts/src/shared/InputName.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-contracts/src/shared/Message.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-contracts/src/shared/Message.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-contracts/src/shared/MessageSignature.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-contracts/src/shared/MessageSignature.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-contracts/src/shared/Messages.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-contracts/src/shared/Messages.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-contracts/src/shared/Params.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-contracts/src/shared/Params.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-contracts/src/shared/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-contracts/src/shared/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-contracts/src/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-contracts/src/store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-contracts/src/translate.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-contracts/src/translate.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-contracts/src/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-contracts/src/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-contracts/src/useAbi.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-contracts/src/useAbi.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-contracts/src/useWeight.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-contracts/src/useWeight.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-council/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../page-council/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-council/src/Motions/Close.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-council/src/Motions/Close.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-council/src/Motions/Motion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-council/src/Motions/Motion.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-council/src/Motions/ProposeExternal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-council/src/Motions/ProposeExternal.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-council/src/Motions/ProposeMotion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-council/src/Motions/ProposeMotion.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-council/src/Motions/Slashing.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-council/src/Motions/Slashing.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-council/src/Motions/Voters.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-council/src/Motions/Voters.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-council/src/Motions/Voting.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-council/src/Motions/Voting.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-council/src/Motions/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-council/src/Motions/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-council/src/Overview/Candidate.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-council/src/Overview/Candidate.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-council/src/Overview/Candidates.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-council/src/Overview/Candidates.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-council/src/Overview/Members.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-council/src/Overview/Members.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-council/src/Overview/SubmitCandidacy.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-council/src/Overview/SubmitCandidacy.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-council/src/Overview/Summary.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-council/src/Overview/Summary.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-council/src/Overview/Vote.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-council/src/Overview/Vote.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-council/src/Overview/Voters.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-council/src/Overview/Voters.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-council/src/Overview/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-council/src/Overview/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-council/src/Overview/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-council/src/Overview/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-council/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-council/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-council/src/thresholds.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../apps-config/src/api/params/proposalThresholds.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-council/src/translate.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-council/src/translate.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-council/src/useCounter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-council/src/useCounter.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-democracy/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../page-democracy/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-democracy/src/Execute/DispatchEntry.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-democracy/src/Execute/DispatchEntry.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-democracy/src/Execute/DispatchQueue.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-democracy/src/Execute/DispatchQueue.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-democracy/src/Execute/Scheduled.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-democracy/src/Execute/Scheduled.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-democracy/src/Execute/Scheduler.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-democracy/src/Execute/Scheduler.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-democracy/src/Execute/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-democracy/src/Execute/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-democracy/src/Execute/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-democracy/src/Execute/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-democracy/src/Execute/useCounter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-democracy/src/Execute/useCounter.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-democracy/src/Overview/External.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-democracy/src/Overview/External.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-democracy/src/Overview/ExternalCell.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-democracy/src/Overview/ExternalCell.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-democracy/src/Overview/Externals.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-democracy/src/Overview/Externals.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-democracy/src/Overview/Fasttrack.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-democracy/src/Overview/Fasttrack.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-democracy/src/Overview/PreImage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-democracy/src/Overview/PreImage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-democracy/src/Overview/PreImageButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-democracy/src/Overview/PreImageButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-democracy/src/Overview/Proposal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-democracy/src/Overview/Proposal.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-democracy/src/Overview/ProposalCell.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-democracy/src/Overview/ProposalCell.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-democracy/src/Overview/Proposals.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-democracy/src/Overview/Proposals.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-democracy/src/Overview/Propose.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-democracy/src/Overview/Propose.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-democracy/src/Overview/Referendum.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-democracy/src/Overview/Referendum.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-democracy/src/Overview/ReferendumVote.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-democracy/src/Overview/ReferendumVote.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-democracy/src/Overview/ReferendumVotes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-democracy/src/Overview/ReferendumVotes.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-democracy/src/Overview/Referendums.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-democracy/src/Overview/Referendums.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-democracy/src/Overview/Seconding.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-democracy/src/Overview/Seconding.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-democracy/src/Overview/Summary.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-democracy/src/Overview/Summary.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-democracy/src/Overview/TreasuryCell.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-democracy/src/Overview/TreasuryCell.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-democracy/src/Overview/Voting.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-democracy/src/Overview/Voting.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-democracy/src/Overview/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-democracy/src/Overview/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-democracy/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-democracy/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-democracy/src/translate.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-democracy/src/translate.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-democracy/src/useChangeCalc.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-democracy/src/useChangeCalc.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-democracy/src/useCounter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-democracy/src/useCounter.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-democracy/src/util.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-democracy/src/util.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-democracy/src/util.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-democracy/src/util.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-explorer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../page-explorer/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-explorer/src/BestHash.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-explorer/src/BestHash.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-explorer/src/BlockHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-explorer/src/BlockHeader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-explorer/src/BlockHeaders.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-explorer/src/BlockHeaders.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-explorer/src/BlockInfo/ByHash.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-explorer/src/BlockInfo/ByHash.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-explorer/src/BlockInfo/ByNumber.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-explorer/src/BlockInfo/ByNumber.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-explorer/src/BlockInfo/Extrinsic.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-explorer/src/BlockInfo/Extrinsic.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-explorer/src/BlockInfo/Extrinsics.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-explorer/src/BlockInfo/Extrinsics.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-explorer/src/BlockInfo/Logs.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-explorer/src/BlockInfo/Logs.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-explorer/src/BlockInfo/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-explorer/src/BlockInfo/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-explorer/src/Event.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-explorer/src/Event.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-explorer/src/Events.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-explorer/src/Events.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-explorer/src/Forks.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-explorer/src/Forks.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-explorer/src/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-explorer/src/Main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-explorer/src/NodeInfo/Peers.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-explorer/src/NodeInfo/Peers.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-explorer/src/NodeInfo/Summary.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-explorer/src/NodeInfo/Summary.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-explorer/src/NodeInfo/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-explorer/src/NodeInfo/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-explorer/src/NodeInfo/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-explorer/src/NodeInfo/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-explorer/src/Query.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-explorer/src/Query.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-explorer/src/Summary.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-explorer/src/Summary.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-explorer/src/SummarySession.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-explorer/src/SummarySession.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-explorer/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-explorer/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-explorer/src/translate.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-explorer/src/translate.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-extrinsics/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../page-extrinsics/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-extrinsics/src/Balance.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-extrinsics/src/Balance.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-extrinsics/src/Selection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-extrinsics/src/Selection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-extrinsics/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-extrinsics/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-extrinsics/src/translate.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-extrinsics/src/translate.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-generic-asset/.skip-build" beforeDir="false" afterPath="$PROJECT_DIR$/../page-bounties/.skip-build" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-generic-asset/.skip-npm" beforeDir="false" afterPath="$PROJECT_DIR$/../test-support/.skip-build" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-generic-asset/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../page-bounties/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-generic-asset/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-generic-asset/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-generic-asset/src/AssetCard.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-generic-asset/src/AssetRow.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-generic-asset/src/Assets.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-generic-asset/src/Transfer.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-generic-asset/src/assetsRegistry.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-generic-asset/src/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-generic-asset/src/modals/Create.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-generic-asset/src/translate.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-js/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../page-js/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-js/src/ActionButtons.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-js/src/ActionButtons.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-js/src/Output.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-js/src/Output.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-js/src/Playground.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-js/src/Playground.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-js/src/constants.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-js/src/constants.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-js/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-js/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-js/src/snippets/consts-examples.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-js/src/snippets/consts-examples.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-js/src/snippets/extrinsics-examples.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-js/src/snippets/extrinsics-examples.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-js/src/snippets/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-js/src/snippets/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-js/src/snippets/rpc-examples.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-js/src/snippets/rpc-examples.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-js/src/snippets/storage-examples.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-js/src/snippets/storage-examples.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-js/src/snippets/transfer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-js/src/snippets/transfer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-js/src/snippets/wrapping.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-js/src/snippets/wrapping.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-js/src/translate.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-js/src/translate.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-js/src/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-js/src/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-nft-creator/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../page-nft-creator/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-nft-curator/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../page-nft-curator/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-nft-gallery/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../page-nft-gallery/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-nft-wallet/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../page-nft-wallet/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-parachains/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../page-parachains/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-parachains/src/Overview/Parachain.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-parachains/src/Overview/Parachain.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-parachains/src/Overview/Parachains.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-parachains/src/Overview/Proposal.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-parachains/src/Overview/Proposals.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-parachains/src/Overview/Register.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-parachains/src/Overview/Summary.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-parachains/src/Overview/Summary.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-parachains/src/Overview/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-parachains/src/Overview/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-parachains/src/Overview/types.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-parachains/src/Parachain/Deregister.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-parachains/src/Parachain/Details.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-parachains/src/Parachain/DispatchQueue.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-parachains/src/Parachain/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-parachains/src/ParachainInfo.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-parachains/src/Transfer.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-parachains/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-parachains/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-parachains/src/translate.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-parachains/src/translate.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-parachains/src/util.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-poll/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../page-poll/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-poll/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-poll/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-poll/src/translate.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-poll/src/translate.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-rpc/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../page-rpc/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-rpc/src/Rpc/Account.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-rpc/src/Rpc/Account.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-rpc/src/Rpc/Results.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-rpc/src/Rpc/Results.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-rpc/src/Rpc/Selection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-rpc/src/Rpc/Selection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-rpc/src/Rpc/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-rpc/src/Rpc/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-rpc/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-rpc/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-rpc/src/translate.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-rpc/src/translate.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-settings/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../page-settings/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-settings/src/Developer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-settings/src/Developer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-settings/src/General.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-settings/src/General.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-settings/src/I18n/StringInput.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-settings/src/I18n/StringInput.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-settings/src/I18n/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-settings/src/I18n/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-settings/src/Metadata/ChainColorIndicator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-settings/src/Metadata/ChainColorIndicator.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-settings/src/Metadata/Extensions.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-settings/src/Metadata/Extensions.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-settings/src/Metadata/NetworkSpecs.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-settings/src/Metadata/NetworkSpecs.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-settings/src/Metadata/iconOption.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-settings/src/Metadata/iconOption.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-settings/src/Metadata/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-settings/src/Metadata/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-settings/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-settings/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-settings/src/translate.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-settings/src/translate.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-settings/src/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-settings/src/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-settings/src/useChainInfo.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-settings/src/useChainInfo.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-settings/src/useCounter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-settings/src/useCounter.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-settings/src/useExtensions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-settings/src/useExtensions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-settings/src/util.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-settings/src/util.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-signing/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../page-signing/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-signing/src/Hash.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-signing/src/Hash.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-signing/src/Sign.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-signing/src/Sign.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-signing/src/Unlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-signing/src/Unlock.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-signing/src/Verify.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-signing/src/Verify.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-signing/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-signing/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-signing/src/translate.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-signing/src/translate.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-society/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../page-society/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-society/src/Overview/Bid.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-society/src/Overview/Bid.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-society/src/Overview/BidNew.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-society/src/Overview/BidNew.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-society/src/Overview/Bids.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-society/src/Overview/Bids.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-society/src/Overview/Candidate.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-society/src/Overview/Candidate.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-society/src/Overview/CandidateVoting.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-society/src/Overview/CandidateVoting.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-society/src/Overview/Candidates.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-society/src/Overview/Candidates.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-society/src/Overview/Defender.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-society/src/Overview/Defender.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-society/src/Overview/DefenderVoting.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-society/src/Overview/DefenderVoting.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-society/src/Overview/Member.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-society/src/Overview/Member.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-society/src/Overview/Members.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-society/src/Overview/Members.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-society/src/Overview/Summary.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-society/src/Overview/Summary.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-society/src/Overview/Votes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-society/src/Overview/Votes.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-society/src/Overview/VotesExpander.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-society/src/Overview/VotesExpander.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-society/src/Overview/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-society/src/Overview/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-society/src/draw/canary.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-society/src/draw/canary.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-society/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-society/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-society/src/translate.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-society/src/translate.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-society/src/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-society/src/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-society/src/useCounter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-society/src/useCounter.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-society/src/useMembers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-society/src/useMembers.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/Actions/Account/BondExtra.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/Actions/Account/BondExtra.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/Actions/Account/InjectKeys.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/Actions/Account/InjectKeys.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/Actions/Account/InputValidateAmount.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/Actions/Account/InputValidateAmount.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/Actions/Account/InputValidationController.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/Actions/Account/InputValidationController.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/Actions/Account/InputValidationSessionKey.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/Actions/Account/InputValidationSessionKey.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/Actions/Account/InputValidationUnstakeThreshold.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/Actions/Account/InputValidationUnstakeThreshold.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/Actions/Account/ListNominees.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/Actions/Account/ListNominees.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/Actions/Account/Nominate.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/Actions/Account/Nominate.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/Actions/Account/SetControllerAccount.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/Actions/Account/SetControllerAccount.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/Actions/Account/SetRewardDestination.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/Actions/Account/SetRewardDestination.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/Actions/Account/SetSessionKey.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/Actions/Account/SetSessionKey.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/Actions/Account/Unbond.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/Actions/Account/Unbond.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/Actions/Account/Validate.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/Actions/Account/Validate.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/Actions/Account/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/Actions/Account/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/Actions/NewNominator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/Actions/NewNominator.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/Actions/NewStash.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/Actions/NewStash.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/Actions/NewValidator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/Actions/NewValidator.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/Actions/destOptions.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/Actions/destOptions.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/Actions/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/Actions/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/Actions/partials/Bond.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/Actions/partials/Bond.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/Actions/partials/Nominate.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/Actions/partials/Nominate.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/Actions/partials/SessionKey.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/Actions/partials/SessionKey.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/Actions/partials/Validate.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/Actions/partials/Validate.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/Actions/partials/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/Actions/partials/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/Actions/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/Actions/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/Actions/useInactives.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/Actions/useInactives.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/Actions/useUnbondDuration.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/Actions/useUnbondDuration.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/ElectionBanner.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/ElectionBanner.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/Filtering.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/Filtering.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/Ledgend.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/Legend.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/MaxBadge.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/MaxBadge.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/Overview/Address/Favorite.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/Overview/Address/Favorite.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/Overview/Address/NominatedBy.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/Overview/Address/NominatedBy.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/Overview/Address/StakeOther.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/Overview/Address/StakeOther.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/Overview/Address/Status.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/Overview/Address/Status.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/Overview/Address/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/Overview/Address/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/Overview/CurrentList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/Overview/CurrentList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/Overview/Summary.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/Overview/Summary.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/Overview/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/Overview/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/Overview/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/Overview/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/Payouts/PayButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/Payouts/PayButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/Payouts/Stash.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/Payouts/Stash.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/Payouts/Validator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/Payouts/Validator.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/Payouts/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/Payouts/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/Payouts/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/Payouts/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/Payouts/useEraBlocks.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/Payouts/useEraBlocks.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/Payouts/useStakerPayouts.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/Payouts/useStakerPayouts.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/Payouts/util.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/Payouts/util.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/Query/ChartPoints.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/Query/ChartPoints.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/Query/ChartPrefs.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/Query/ChartPrefs.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/Query/ChartRewards.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/Query/ChartRewards.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/Query/ChartStake.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/Query/ChartStake.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/Query/Validator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/Query/Validator.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/Query/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/Query/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/Query/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/Query/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/Query/useBlockCounts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/Query/useBlockCounts.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/Query/util.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/Query/util.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/Slashes/Era.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/Slashes/Era.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/Slashes/Row.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/Slashes/Row.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/Slashes/Summary.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/Slashes/Summary.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/Slashes/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/Slashes/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/Slashes/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/Slashes/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/Targets/Nominate.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/Targets/Nominate.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/Targets/Summary.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/Targets/Summary.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/Targets/Validator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/Targets/Validator.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/Targets/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/Targets/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/Targets/useOwnNominators.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/Targets/useOwnNominators.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/constants.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/translate.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/translate.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-staking/src/useSortedTargets.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-staking/src/useSortedTargets.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-storage/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../page-storage/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-storage/src/Queries.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-storage/src/Queries.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-storage/src/Query.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-storage/src/Query.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-storage/src/Selection/Consts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-storage/src/Selection/Consts.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-storage/src/Selection/Modules.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-storage/src/Selection/Modules.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-storage/src/Selection/Raw.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-storage/src/Selection/Raw.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-storage/src/Selection/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-storage/src/Selection/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-storage/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-storage/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-storage/src/translate.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-storage/src/translate.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-storage/src/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-storage/src/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-sudo/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../page-sudo/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-sudo/src/SetKey.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-sudo/src/SetKey.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-sudo/src/Sudo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-sudo/src/Sudo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-sudo/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-sudo/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-sudo/src/translate.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-sudo/src/translate.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-sudo/src/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-sudo/src/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-tech-comm/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../page-tech-comm/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-tech-comm/src/Overview/Members.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-tech-comm/src/Overview/Members.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-tech-comm/src/Overview/Summary.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-tech-comm/src/Overview/Summary.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-tech-comm/src/Overview/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-tech-comm/src/Overview/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-tech-comm/src/Proposals/Close.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-tech-comm/src/Proposals/Close.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-tech-comm/src/Proposals/Proposal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-tech-comm/src/Proposals/Proposal.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-tech-comm/src/Proposals/Propose.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-tech-comm/src/Proposals/Propose.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-tech-comm/src/Proposals/Voting.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-tech-comm/src/Proposals/Voting.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-tech-comm/src/Proposals/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-tech-comm/src/Proposals/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-tech-comm/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-tech-comm/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-tech-comm/src/translate.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-tech-comm/src/translate.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-tech-comm/src/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-tech-comm/src/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-tech-comm/src/useCounter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-tech-comm/src/useCounter.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-treasury/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../page-treasury/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-treasury/src/Overview/Council.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-treasury/src/Overview/Council.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-treasury/src/Overview/Proposal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-treasury/src/Overview/Proposal.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-treasury/src/Overview/ProposalCreate.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-treasury/src/Overview/ProposalCreate.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-treasury/src/Overview/Proposals.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-treasury/src/Overview/Proposals.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-treasury/src/Overview/Summary.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-treasury/src/Overview/Summary.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-treasury/src/Overview/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-treasury/src/Overview/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-treasury/src/Tips/Tip.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-treasury/src/Tips/Tip.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-treasury/src/Tips/TipCreate.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-treasury/src/Tips/TipCreate.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-treasury/src/Tips/TipEndorse.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-treasury/src/Tips/TipEndorse.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-treasury/src/Tips/TipReason.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-treasury/src/Tips/TipReason.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-treasury/src/Tips/Tips.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-treasury/src/Tips/Tips.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-treasury/src/Tips/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-treasury/src/Tips/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-treasury/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../page-treasury/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-treasury/src/translate.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-treasury/src/translate.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page-treasury/src/useCounter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../page-treasury/src/useCounter.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-api/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../react-api/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-api/src/Api.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-api/src/Api.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-api/src/ApiContext.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-api/src/ApiContext.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-api/src/hoc/api.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-api/src/hoc/api.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-api/src/hoc/call.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-api/src/hoc/call.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-api/src/hoc/callDiv.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-api/src/hoc/callDiv.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-api/src/hoc/calls.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-api/src/hoc/calls.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-api/src/hoc/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-api/src/hoc/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-api/src/hoc/multi.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-api/src/hoc/multi.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-api/src/hoc/observable.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-api/src/hoc/observable.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-api/src/hoc/onlyOn.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-api/src/hoc/onlyOn.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-api/src/hoc/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-api/src/hoc/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-api/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-api/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-api/src/ledger.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-api/src/transform/echo.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-api/src/transform/echo.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-api/src/typeRegistry.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-api/src/typeRegistry.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-api/src/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-api/src/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-api/src/util/getEnvironment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-api/src/util/getEnvironment.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-api/src/util/historic.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-api/src/util/historic.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-api/src/util/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-api/src/util/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-api/src/util/intervalObservable.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-api/src/util/intervalObservable.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-api/src/util/isEqual.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-api/src/util/isEqual.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-api/src/util/triggerChange.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-api/src/util/triggerChange.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-api/test/enzyme.js" beforeDir="false" afterPath="$PROJECT_DIR$/../react-api/test/enzyme.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-api/test/observable.js" beforeDir="false" afterPath="$PROJECT_DIR$/../react-api/test/observable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-api/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../react-api/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/AccountIndex.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/AccountIndex.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/AccountName.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/AccountName.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/AccountSelector.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/ActionItem.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/AddressInfo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/AddressInfo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/AddressMini.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/AddressMini.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/AddressRow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/AddressRow.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/AddressSmall.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/AddressSmall.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/AddressToggle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/AddressToggle.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Available.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/Available.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/AvatarItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/AvatarItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Badge.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/Badge.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Balance.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/Balance.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Bonded.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/Bonded.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/Button/Button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Button/Group.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/Button/Group.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Button/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/Button/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Button/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/Button/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/ButtonCancel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/ButtonCancel.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Call.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/Call.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/CallExpander.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/CallExpander.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/Card.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/CardGrid.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/CardSummary.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/CardSummary.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/ChainImg.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/ChainImg.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/ChainLock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/ChainLock.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Chart/Base.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/Chart/Base.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Chart/Doughnut.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/Chart/Doughnut.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Chart/HorizBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/Chart/HorizBar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Chart/Line.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/Chart/Line.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Chart/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/Chart/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Chart/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/Chart/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Checkbox.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/Checkbox.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Collection.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Columar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/Columar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Column.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/ConvictionDropdown.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/ConvictionDropdown.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/CopyButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/CopyButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/CryptoType.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/CryptoType.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/DemocracyLocks.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/DemocracyLocks.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Dropdown.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/Dropdown.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/EditButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/EditButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Editor.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/Editor.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/ErrorBoundary.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/ErrorBoundary.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Event.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/Event.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Expander.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/Expander.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Extrinsic.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/Extrinsic.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/FilterOverlay.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/FilterOverlay.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Forget.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/Forget.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/FormatBalance.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/HelpOverlay.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/HelpOverlay.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Icon.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/Icon.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/IconLink.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/IconLink.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/IdentityIcon/RoboHash/backgrounds/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/IdentityIcon/RoboHash/backgrounds/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/IdentityIcon/RoboHash/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/IdentityIcon/RoboHash/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/IdentityIcon/RoboHash/sets/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/IdentityIcon/RoboHash/sets/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/IdentityIcon/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/IdentityIcon/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/InfoForInput.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/InfoForInput.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Input.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/Input.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/InputAddress/KeyPair.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/InputAddress/KeyPair.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/InputAddress/createHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/InputAddress/createHeader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/InputAddress/createItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/InputAddress/createItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/InputAddress/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/InputAddress/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/InputAddress/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/InputAddress/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/InputAddressMulti/Available.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/InputAddressMulti/Available.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/InputAddressMulti/Selected.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/InputAddressMulti/Selected.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/InputAddressMulti/SelectedDrag.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/InputAddressMulti/SelectedDrag.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/InputAddressMulti/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/InputAddressMulti/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/InputAddressSimple.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/InputAddressSimple.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/InputBalance.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/InputBalance.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/InputConsts/SelectKey.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/InputConsts/SelectKey.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/InputConsts/SelectSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/InputConsts/SelectSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/InputConsts/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/InputConsts/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/InputConsts/options/key.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/InputConsts/options/key.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/InputConsts/options/section.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/InputConsts/options/section.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/InputConsts/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/InputConsts/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/InputExtrinsic/LinkedWrapper.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/InputExtrinsic/LinkedWrapper.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/InputExtrinsic/SelectMethod.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/InputExtrinsic/SelectMethod.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/InputExtrinsic/SelectSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/InputExtrinsic/SelectSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/InputExtrinsic/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/InputExtrinsic/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/InputExtrinsic/options/method.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/InputExtrinsic/options/method.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/InputExtrinsic/options/section.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/InputExtrinsic/options/section.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/InputFile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/InputFile.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/InputNumber.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/InputNumber.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/InputRpc/SelectMethod.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/InputRpc/SelectMethod.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/InputRpc/SelectSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/InputRpc/SelectSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/InputRpc/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/InputRpc/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/InputRpc/options/method.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/InputRpc/options/method.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/InputRpc/options/section.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/InputRpc/options/section.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/InputStorage/SelectKey.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/InputStorage/SelectKey.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/InputStorage/SelectSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/InputStorage/SelectSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/InputStorage/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/InputStorage/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/InputStorage/options/key.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/InputStorage/options/key.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/InputStorage/options/section.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/InputStorage/options/section.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/InputTags.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/InputTags.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/InputWasm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/InputWasm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Inset.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/Inset.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Label.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/Label.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/LabelHelp.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/LabelHelp.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Labelled.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/Labelled.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/LinkExternal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/LinkExternal.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/LockedVote.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/LockedVote.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/Menu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Modal/Actions.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/Modal/Actions.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Modal/Column.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/Modal/Column.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Modal/Columns.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/Modal/Columns.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Modal/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/Modal/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Modal/types.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/Modal/types.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Nonce.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/Nonce.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Output.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/Output.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Params/Call.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/Params/Call.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Params/Extrinsic.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/Params/Extrinsic.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Params/OpaqueCall.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/Params/OpaqueCall.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Params/Proposal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/Params/Proposal.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Params/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/Params/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Password.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/Password.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/PasswordStrength.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/PasswordStrength.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Popup.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/Popup.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Progress.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/Progress.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/ProposedAction.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/ProposedAction.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Row.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/Row.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Sidebar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/Sidebar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Spinner.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/Spinner.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/StakingBonded.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/StakingBonded.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/StakingRedeemable.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/StakingRedeemable.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/StakingUnbonding.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/StakingUnbonding.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Static.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/Static.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Status/Context.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/Status/Context.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Status/Queue.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/Status/Queue.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Status/constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/Status/constants.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Status/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/Status/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Status/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/Status/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/SummaryBox.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/SummaryBox.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Table/Body.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/Table/Body.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Table/Foot.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/Table/Foot.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Table/Head.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/Table/Head.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Table/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/Table/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Tabs/Tab.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/Tabs/Tab.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Tabs/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/Tabs/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Tabs/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/Tabs/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Tag.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/Tag.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Tags.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/Tags.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/TextArea.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/TextArea.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Toggle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/Toggle.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/ToggleGroup.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/ToggleGroup.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/Tooltip.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/Tooltip.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/TreasuryProposal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/TreasuryProposal.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/TxButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/TxButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/VoteAccount.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/VoteAccount.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/VoteValue.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/VoteValue.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/constants.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/i18n/Backend.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/i18n/Backend.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/i18n/cache.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/i18n/cache.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/i18n/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/i18n/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/media.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/media.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/styles/components.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/styles/components.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/styles/form.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/styles/form.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/styles/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/styles/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/styles/media.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/styles/media.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/styles/rx.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/styles/rx.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/styles/semantic.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/styles/semantic.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/styles/theme.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/styles/theme.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/translate.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/translate.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/util/checkVisibility.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/util/checkVisibility.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/util/getAddressMeta.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/util/getAddressMeta.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/util/getAddressName.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/util/getAddressName.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/util/getAddressTags.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/util/getAddressTags.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/util/getContractAbi.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/util/getContractAbi.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/util/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/util/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/util/isTreasuryProposalVote.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/util/isTreasuryProposalVote.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/util/toAddress.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/util/toAddress.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/util/toShortAddress.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/util/toShortAddress.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-components/src/util/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-components/src/util/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-hooks/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../react-hooks/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-hooks/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-hooks/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-hooks/src/memo.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-hooks/src/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-hooks/src/stateMachine.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-hooks/src/translate.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-hooks/src/translate.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-hooks/src/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-hooks/src/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-hooks/src/useAccountId.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-hooks/src/useAccountId.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-hooks/src/useAccountInfo.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-hooks/src/useAccountInfo.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-hooks/src/useAccounts.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-hooks/src/useAccounts.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-hooks/src/useAddresses.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-hooks/src/useAddresses.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-hooks/src/useApi.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-hooks/src/useApi.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-hooks/src/useAvailableSlashes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-hooks/src/useAvailableSlashes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-hooks/src/useBlockTime.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-hooks/src/useBlockTime.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-hooks/src/useCacheKey.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-hooks/src/useCacheKey.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-hooks/src/useCall.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-hooks/src/useCall.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-hooks/src/useContracts.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-hooks/src/useContracts.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-hooks/src/useDebounce.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-hooks/src/useDebounce.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-hooks/src/useFavorites.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-hooks/src/useFavorites.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-hooks/src/useFormField.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-hooks/src/useFormField.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-hooks/src/useIncrement.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-hooks/src/useIncrement.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-hooks/src/useIpfs.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-hooks/src/useIpfs.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-hooks/src/useIsMountedRef.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-hooks/src/useIsMountedRef.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-hooks/src/useLoadingDelay.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-hooks/src/useLoadingDelay.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-hooks/src/useMembers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-hooks/src/useMembers.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-hooks/src/useModal.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-hooks/src/useModal.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-hooks/src/useNonEmptyString.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-hooks/src/useNonEmptyString.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-hooks/src/useNonZeroBn.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-hooks/src/useNonZeroBn.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-hooks/src/useOwnEraRewards.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-hooks/src/useOwnEraRewards.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-hooks/src/useOwnStashInfos.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-hooks/src/useOwnStashInfos.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-hooks/src/useOwnStashes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-hooks/src/useOwnStashes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-hooks/src/usePassword.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-hooks/src/usePassword.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-hooks/src/useRegistrars.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-hooks/src/useRegistrars.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-hooks/src/useStashIds.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-hooks/src/useSudo.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-hooks/src/useSudo.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-hooks/src/useToggle.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-hooks/src/useToggle.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-hooks/src/useVotingStatus.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-hooks/src/useVotingStatus.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-hooks/src/useWeight.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-hooks/src/useWeight.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-params/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../react-params/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-params/src/Holder.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-params/src/Holder.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-params/src/Param/Account.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-params/src/Param/Account.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-params/src/Param/Amount.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-params/src/Param/Amount.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-params/src/Param/Balance.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-params/src/Param/Balance.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-params/src/Param/Bare.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-params/src/Param/Bare.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-params/src/Param/Base.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-params/src/Param/Base.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-params/src/Param/BaseBytes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-params/src/Param/BaseBytes.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-params/src/Param/Bool.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-params/src/Param/Bool.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-params/src/Param/Bytes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-params/src/Param/Bytes.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-params/src/Param/Call.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-params/src/Param/Call.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-params/src/Param/Code.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-params/src/Param/Code.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-params/src/Param/DispatchError.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-params/src/Param/DispatchError.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-params/src/Param/Enum.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-params/src/Param/Enum.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-params/src/Param/File.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-params/src/Param/File.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-params/src/Param/Hash160.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-params/src/Param/Hash160.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-params/src/Param/Hash256.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-params/src/Param/Hash256.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-params/src/Param/Hash512.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-params/src/Param/Hash512.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-params/src/Param/KeyValue.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-params/src/Param/KeyValue.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-params/src/Param/KeyValueArray.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-params/src/Param/KeyValueArray.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-params/src/Param/Moment.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-params/src/Param/Moment.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-params/src/Param/Null.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-params/src/Param/Null.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-params/src/Param/OpaqueCall.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-params/src/Param/OpaqueCall.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-params/src/Param/Option.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-params/src/Param/Option.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-params/src/Param/Raw.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-params/src/Param/Raw.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-params/src/Param/Static.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-params/src/Param/Static.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-params/src/Param/Struct.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-params/src/Param/Struct.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-params/src/Param/Text.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-params/src/Param/Text.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-params/src/Param/Tuple.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-params/src/Param/Tuple.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-params/src/Param/Unknown.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-params/src/Param/Unknown.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-params/src/Param/Vector.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-params/src/Param/Vector.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-params/src/Param/VectorFixed.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-params/src/Param/VectorFixed.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-params/src/Param/Vote.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-params/src/Param/Vote.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-params/src/Param/VoteThreshold.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-params/src/Param/VoteThreshold.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-params/src/Param/findComponent.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-params/src/Param/findComponent.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-params/src/Param/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-params/src/Param/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-params/src/Param/useParamDefs.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-params/src/Param/useParamDefs.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-params/src/ParamComp.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-params/src/ParamComp.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-params/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-params/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-params/src/initValue.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-params/src/initValue.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-params/src/translate.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-params/src/translate.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-params/src/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-params/src/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-params/src/valueToText.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-params/src/valueToText.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-params/src/values.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-params/src/values.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-query/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../react-query/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-query/src/Available.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-query/src/Available.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-query/src/Balance.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-query/src/Balance.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-query/src/BalanceFree.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-query/src/BalanceFree.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-query/src/BalanceVoting.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-query/src/BalanceVoting.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-query/src/BestFinalized.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-query/src/BestFinalized.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-query/src/BestNumber.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-query/src/BestNumber.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-query/src/BlockAuthors.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-query/src/BlockAuthors.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-query/src/BlockToTime.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-query/src/BlockToTime.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-query/src/Bonded.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-query/src/Bonded.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-query/src/Chain.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-query/src/Chain.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-query/src/Elapsed.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-query/src/Elapsed.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-query/src/Events.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-query/src/Events.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-query/src/FormatBalance.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-query/src/FormatBalance.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-query/src/LockedVote.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-query/src/LockedVote.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-query/src/NodeName.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-query/src/NodeName.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-query/src/NodeVersion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-query/src/NodeVersion.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-query/src/Nonce.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-query/src/Nonce.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-query/src/TimeNow.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-query/src/TimeNow.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-query/src/TotalIssuance.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-query/src/TotalIssuance.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-query/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-query/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-query/src/translate.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-query/src/translate.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-query/src/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-query/src/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-query/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../react-query/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-signer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../react-signer/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-signer/src/Address.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-signer/src/Address.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-signer/src/Password.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-signer/src/Password.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-signer/src/PaymentInfo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-signer/src/PaymentInfo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-signer/src/Qr.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-signer/src/Qr.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-signer/src/SignFields.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-signer/src/SignFields.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-signer/src/Tip.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-signer/src/Tip.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-signer/src/Transaction.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-signer/src/Transaction.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-signer/src/TxSigned.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-signer/src/TxSigned.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-signer/src/TxUnsigned.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-signer/src/TxUnsigned.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-signer/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../react-signer/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-signer/src/signers/AccountSigner.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-signer/src/signers/AccountSigner.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-signer/src/signers/ApiSigner.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-signer/src/signers/ApiSigner.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-signer/src/signers/LedgerSigner.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-signer/src/signers/LedgerSigner.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-signer/src/signers/QrSigner.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-signer/src/signers/QrSigner.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-signer/src/signers/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-signer/src/signers/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-signer/src/translate.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-signer/src/translate.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-signer/src/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-signer/src/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-signer/src/util.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../react-signer/src/util.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../patches/eslint-plugin-simple-import-sort+6.0.1.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scripts/docker.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../../scripts/docker.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scripts/findPackages.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../scripts/findPackages.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scripts/i18nLint.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../scripts/i18nLint.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scripts/i18nSort.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../scripts/i18nSort.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scripts/ipfsUpload.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../scripts/ipfsUpload.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../scripts/robohash.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../scripts/robohash.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test/enzyme.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test/test.contract.wasm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../yarn.lock" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1nhMN10WeiXkmGgII6JQ14gl353" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc55e9c7-c42c-4553-a2d4-72db2c0d5595" name="Default Changelist" comment="" />
+      <created>1611837825852</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611837825852</updated>
+      <workItem from="1611837827040" duration="27000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
