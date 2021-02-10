@@ -9,7 +9,7 @@ import { Route, Switch } from 'react-router';
 
 import { HelpOverlay, Tabs } from '@polkadot/react-components';
 import { AppProps as Props } from '@polkadot/react-components/types';
-import basicMd from '@polkadot/app-accounts/md/basic.md';
+import basicMd from './md/basic.md';
 
 import TradeHistory from './containers/TradeHistory';
 import PendingReports from './containers/PendingReports';

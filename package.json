@@ -106,6 +106,7 @@
     "react-images-uploading": "^3.1.2",
     "rxjs-compat": "^6.6.3",
     "style-loader": "^2.0.0",
+    "thread-loader": "^3.0.1",
     "xstate": "^4.15.0"
   }
 }

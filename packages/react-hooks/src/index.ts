@@ -29,7 +29,6 @@ export { useLedger } from './useLedger';
 export { useLoadingDelay } from './useLoadingDelay';
 export { useMembers } from './useMembers';
 export { useModal } from './useModal';
-export { decimals, useNftContract, marketContractAddress } from './useNftContract';
 export { AppreciationType, OfferType, TokenCollectionType, TokenDetailsType, useNftGalleryApi } from './useNftGalleryApi';
 export { useNftTests } from './useNftTests';
 export { useNonEmptyString } from './useNonEmptyString';
