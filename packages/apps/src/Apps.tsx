@@ -3,7 +3,7 @@
 
 import type { BareProps as Props, ThemeDef, ThemeProps } from '@polkadot/react-components/types';
 
-import React, { useContext, useMemo, useState } from 'react';
+import React, { useContext, useMemo } from 'react';
 import { useLocation } from 'react-router';
 import { NavLink } from 'react-router-dom';
 import Menu from 'semantic-ui-react/dist/commonjs/collections/Menu';
@@ -37,16 +37,16 @@ function Apps ({ className = '' }: Props): React.ReactElement<Props> {
       <div className={`apps--Wrapper theme--${theme} ${className}`}>
         <Menu tabular>
           <Menu.Item
-            active={location.pathname === '/wallet'}
-            as={NavLink}
-            name='wallet'
-            to='/wallet'
-          />
-          <Menu.Item
             active={location.pathname === '/gallery'}
             as={NavLink}
             name='gallery'
             to='/gallery'
+          />
+          <Menu.Item
+            active={location.pathname === '/wallet'}
+            as={NavLink}
+            name='wallet'
+            to='/wallet'
           />
           <Menu.Item
             active={location.pathname === '/creator'}

@@ -10,14 +10,6 @@
 
 ```yarn build```
 
-### Docker node build
+### Kusama Gallery api hook with js docs
 
-```docker-compose up -d --build```
-
-### Docker rebuild node
-
-```docker stop nft_parachain_node_1```
-
-```sudo rm ./chain-data```
-
-```docker start nft_parachain_node_1```
+``` useNftGalleryApi ```
