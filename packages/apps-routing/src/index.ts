@@ -14,6 +14,6 @@ export default function create (t: TFunction): Routes {
     nftWallet(t),
     nftCreator(t),
     nftCurator(t),
-    nftGallery(t),
+    nftGallery(t)
   ];
 }

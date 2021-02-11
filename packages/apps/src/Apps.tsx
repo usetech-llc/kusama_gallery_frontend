@@ -3,7 +3,11 @@
 
 import type { BareProps as Props, ThemeDef, ThemeProps } from '@polkadot/react-components/types';
 
-import React, { useContext, useMemo } from 'react';
+import React, { useContext, useMemo, useState } from 'react';
+import { useLocation } from 'react-router';
+import { NavLink } from 'react-router-dom';
+import Menu from 'semantic-ui-react/dist/commonjs/collections/Menu';
+
 import styled, { ThemeContext } from 'styled-components';
 
 import { getSystemChainColor } from '@polkadot/apps-config';
@@ -20,6 +24,7 @@ export const PORTAL_ID = 'portals';
 function Apps ({ className = '' }: Props): React.ReactElement<Props> {
   const { theme } = useContext<ThemeDef>(ThemeContext);
   const { systemChain, systemName } = useApi();
+  const location = useLocation();
 
   const uiHighlight = useMemo(
     () => getSystemChainColor(systemChain, systemName),
@@ -30,6 +35,32 @@ function Apps ({ className = '' }: Props): React.ReactElement<Props> {
     <>
       <GlobalStyle uiHighlight={uiHighlight} />
       <div className={`apps--Wrapper theme--${theme} ${className}`}>
+        <Menu tabular>
+          <Menu.Item
+            active={location.pathname === '/wallet'}
+            as={NavLink}
+            name='wallet'
+            to='/wallet'
+          />
+          <Menu.Item
+            active={location.pathname === '/gallery'}
+            as={NavLink}
+            name='gallery'
+            to='/gallery'
+          />
+          <Menu.Item
+            active={location.pathname === '/creator'}
+            as={NavLink}
+            name='creator'
+            to='/creator'
+          />
+          <Menu.Item
+            active={location.pathname === '/curator'}
+            as={NavLink}
+            name='curator'
+            to='/curator'
+          />
+        </Menu>
         <Signer>
           <Content />
         </Signer>

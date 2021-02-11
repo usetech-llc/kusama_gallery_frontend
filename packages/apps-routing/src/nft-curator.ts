@@ -5,7 +5,7 @@
 import type { TFunction } from 'i18next';
 import type { Route } from './types';
 
-import Component  from '@polkadot/app-nft-curator';
+import Component from '@polkadot/app-nft-curator';
 
 export default function create (t: TFunction): Route {
   return {
@@ -16,6 +16,6 @@ export default function create (t: TFunction): Route {
     group: 'nft',
     icon: 'users',
     name: 'curator',
-    text: t<string>('nav.nftCurator', 'Curator', { ns: 'apps-routing' }),
+    text: t<string>('nav.nftCurator', 'Curator', { ns: 'apps-routing' })
   };
 }
