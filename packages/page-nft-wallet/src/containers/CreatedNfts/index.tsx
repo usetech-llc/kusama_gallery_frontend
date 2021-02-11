@@ -33,15 +33,6 @@ function CreatedNfts (): React.ReactElement {
     }
   }, [account, getOwnCreatedNftList]);
 
-  console.log('balance.free', balance);
-
-  /*
-  Created NFTs
-  Owned NFTs
-  Personal trade history (sold or purchased pieces)
-  Actions of appreciation (given or received)
-   */
-
   return (
     <div className='nft-wallet'>
       <Header as='h1'>Created NFTs</Header>

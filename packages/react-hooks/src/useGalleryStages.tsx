@@ -2,13 +2,7 @@
 
 import { useCallback, useEffect, useState } from 'react';
 import { useMachine } from '@xstate/react';
-import { OfferType } from '@polkadot/react-hooks/useNftGalleryApi';
-import {
-  useApi,
-  useNftGalleryApi,
-  TokenDetailsType,
-  AppreciationType
-} from '@polkadot/react-hooks';
+import { useApi, useNftGalleryApi, TokenDetailsType } from '@polkadot/react-hooks';
 import keyring from '@polkadot/ui-keyring';
 
 import galleryStateMachine from './stateMachine';
@@ -48,8 +42,7 @@ interface GalleryStagesInterface {
 export const useGalleryStages = (account: string, collectionId: string, tokenId: string): GalleryStagesInterface => {
   const { api } = useApi();
   const [state, send] = useMachine(galleryStateMachine);
-  const { getTokenDetails, getOwnAppreciations, getOwnOffers } = useNftGalleryApi(account ? keyring.getAccount(account) : undefined);
-  const [tokenDetails, setTokenDetails] = useState<TokenDetailsType>();
+  const { getTokenDetails, getOwnAppreciations, getOffers, offers, ownAppreciations, tokenDetails } = useNftGalleryApi(account ? keyring.getAccount(account) : undefined);
   // if we have offer for this token to cancel
   const [showCancelOfferButton, setShowCancelOfferButton] = useState<boolean>(false);
 
@@ -57,23 +50,15 @@ export const useGalleryStages = (account: string, collectionId: string, tokenId:
     send(userAction);
   }, [send]);
 
-  const loadInitialInfo = useCallback(async () => {
+  const loadInitialInfo = useCallback(() => {
     try {
-      const info: TokenDetailsType = await getTokenDetails(collectionId, tokenId);
-      console.log('info', info);
-      setTokenDetails(info);
-      const offers: OfferType[] = await getOwnOffers(account);
-      console.log('offers', offers);
-      // если у нас есть наше предложение, которое мы можем отменить
-      setShowCancelOfferButton(true);
-      const appreciations: Array<AppreciationType> = (await getOwnAppreciations(account));
-      console.log('appreciations', appreciations);
-      /* accordingly what we loaded, we can set state to:
-      */
+      getTokenDetails(collectionId, tokenId);
+      getOffers(account);
+      getOwnAppreciations(account);
     } catch (e) {
       console.error('token balance calculation error', e);
     }
-  }, [account, collectionId, getTokenDetails, tokenId]);
+  }, [account, collectionId, getTokenDetails, getOffers, getOwnAppreciations, tokenId]);
 
   const buy = useCallback(() => {
     send('ENTER_OFFER_PRICE');
