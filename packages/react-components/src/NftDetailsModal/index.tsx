@@ -17,6 +17,13 @@ interface Props {
   account: string;
 }
 
+/*
+Component uses xstate as state machine engine.
+Look at useGalleryStages hook.
+You can take state machine json from stateMachine.ts
+and put it into xstate visualizer https://xstate.js.org/viz/
+ */
+
 function NftDetailsModal ({ account }: Props): React.ReactElement<Props> {
   const query = new URLSearchParams(useLocation().search);
   const { api } = useApi();

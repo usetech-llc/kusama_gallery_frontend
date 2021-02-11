@@ -1,4 +1,5 @@
-// Copyright 2020 @polkadot/app-nft authors & contributors
+// Copyright 2017-2021 UseTech authors & contributors
+// SPDX-License-Identifier: Apache-2.0
 
 import { useCallback, useEffect, useState } from 'react';
 import { useMachine } from '@xstate/react';
